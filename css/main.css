@@ -1,0 +1,27 @@
+
+body {
+  color:blue;
+  letter-spacing: 0.5px;
+  background-color: lightseagreen;
+  font-family: cursive, Helvetica, comic sans, Georgia, "Trebuchet MS", Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 6px cyan;
+  border: solid white 3px;
+  border-radius: 5px;
+  box-shadow: 4px 8px 6px black;
+  color: navy;
+  background-color: gray;
+  font-family: cursive, Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+/* this is the border for the welcome line */
+
+h2 {
+  border-collapse: separate;
+  border: dashed snow 2px;
+  border-radius: 16px;
+  text-align: center;
+}
