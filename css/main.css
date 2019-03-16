@@ -1,4 +1,6 @@
 
+
+
 body {
   color:blue;
   letter-spacing: 0.5px;
@@ -6,7 +8,9 @@ body {
   font-family: cursive, Helvetica, comic sans, Georgia, "Trebuchet MS", Verdana, sans-serif;
 }
 
-h1 {
+/* navigation */
+
+.main-header {
   text-align: center;
   text-shadow: 2px 2px 6px cyan;
   border: solid white 3px;
@@ -17,11 +21,55 @@ h1 {
   font-family: cursive, Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
-/* this is the border for the welcome line */
+/* containers */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* welcome line */
 
 h2 {
   border-collapse: separate;
-  border: dashed snow 2px;
-  border-radius: 16px;
+  border: solid snow 2px;
+  border-radius: 0px;
   text-align: center;
+}
+
+/* cat links */
+
+.meet-cats{
+  text-align: center;
+  list-style: none;
+}
+
+/* footer */
+
+.main-footer{
+  text-align: center;
+  padding: 2em 0;
+  background-color: gray;
+}
+
+
+/* =====================================================
+    Media Queries
+===================================================== */
+
+@media (min-width: 769px) {
+
+  .wrap {
+    min-height: calc(100vh - 89px);
+  }
+
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
