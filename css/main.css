@@ -2,7 +2,7 @@
 
 
 body {
-  color:blue;
+  color: navy;
   letter-spacing: 0.5px;
   background-color: lightseagreen;
   font-family: cursive, Helvetica, comic sans, Georgia, "Trebuchet MS", Verdana, sans-serif;
@@ -43,9 +43,19 @@ h2 {
 
 /* cat links */
 
-.meet-cats{
+.meet-cats,
+.match-cats {
   text-align: center;
   list-style: none;
+  color: snow;
+}
+
+.meet-cats a {
+  padding: 4px;
+  margin: 10px;
+  background-color: lightgreen;
+  border-radius: 4px;
+  display: block;
 }
 
 /* footer */
@@ -72,4 +82,23 @@ h2 {
     max-width: 1000px;
     margin: 0 auto;
   }
+
+  .meet-cats li {
+    display: inline-block;
+    margin: 8px 2px;
+  }
+
+  .col {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 50%;
+    margin-right: -4px;
+  }
+
+  #cats {
+
+  }
+
 }
