@@ -1,5 +1,16 @@
 
+/*==========================================================
+Cat Bios
+====================================================*/
 
+  #tabby {
+    float: left;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: solid 1px orange;
+  }
 
 body {
   color: navy;
@@ -71,7 +82,7 @@ h2 {
     Media Queries
 ===================================================== */
 
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
 
   .wrap {
     min-height: calc(100vh - 82px);
@@ -95,10 +106,6 @@ h2 {
     padding-right: 1em;
     width: 50%;
     margin-right: -4px;
-  }
-
-  #cats {
-
   }
 
 }
