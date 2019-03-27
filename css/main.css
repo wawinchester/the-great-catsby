@@ -31,7 +31,9 @@ body {
   background-color: gray;
   font-family: cursive, Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
-
+.meet-cats {
+  padding-left: 0;
+}
 /* containers */
 
 * {
