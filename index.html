@@ -9,6 +9,7 @@
 
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
@@ -51,8 +52,10 @@
 <!-- Matching Section -->
 
           <div class="secondary col">
-            <h2 class="match-cats"> &star; Match With a Cat &star; </h2>
-
+            <h2 class="match-cats"> <span>&star;</span> Match With a Cat <span>&star;</span> </h2>
+              <p id="how-to">Click the button below to be matched with your lucky cat and be sure to look for them during your next visit!</p>
+              <div id="result"></div>
+              <button id="lucky" onclick="newCat()"> Lucky Cat </button>
           </div>
         </div>
       </div>
@@ -60,6 +63,8 @@
           <span> &copy;2019 Best Catsby </span>
         </footer>
 
+<!-- JavaScript -->
+    <script src="js/app.js"></script>
   </body>
 
   </html>

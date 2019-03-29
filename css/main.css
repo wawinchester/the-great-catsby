@@ -16,7 +16,7 @@ body {
   color: navy;
   letter-spacing: 0.5px;
   background-color: lightseagreen;
-  font-family: cursive, Helvetica, comic sans, Georgia, "Trebuchet MS", Verdana, sans-serif;
+  font-family: cursive, Tangerine, Helvetica, comic sans, Georgia, "Trebuchet MS", Verdana, sans-serif;
 }
 
 /* navigation */
@@ -29,7 +29,7 @@ body {
   box-shadow: 4px 8px 6px black;
   color: navy;
   background-color: gray;
-  font-family: cursive, Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  font-family: cursive, Tangerine, Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 .meet-cats {
   padding-left: 0;
@@ -71,6 +71,31 @@ h2 {
   display: block;
 }
 
+#how-to {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+#lucky {
+  display: block;
+  background-color: #b19cd9;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1.5em;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+#result {
+  border: solid 3px snow;
+  border-radius: 25px;
+  text-align: center;
+  padding: 7px;
+  font-size: 1.3em;
+  margin: auto;
+}
+
 /* footer */
 
 .main-footer{
@@ -108,6 +133,17 @@ h2 {
     padding-right: 1em;
     width: 50%;
     margin-right: -4px;
+  }
+
+  .main-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  body {
+    padding-top: 90px;
   }
 
 }
