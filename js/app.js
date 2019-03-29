@@ -10,12 +10,7 @@ var cat =[
   'winston'
 ];
 
-// function newCat() {
-// var randomNumber = Math.floor(Math.random() * (cat.length));
-// document.getElementById('lucky').innerHTML = cat[randomNumber];
-// }
-
-
+//This function returns a random "lucky cat" when the button is clicked
 
 function newCat () {
   idArray = new Array()
@@ -33,24 +28,3 @@ randomCat = Math.floor(Math.random()*7);
  document.getElementById('result').innerHTML = idArray[randomCat];
 
 }
-
-
-
-
-// var cat =[
-//   'bingley',
-//   'catsby',
-//   'fluffy',
-//   'orion',
-//   'sprinkles',
-//   'tabby',
-//   'winston'
-// ];
-// function newCat() {
-// var randomNumber = Math.floor(Math.random() * (cat.length));
-// const document.getElementById('lucky').innerHTML = cat[randomNumber];
-// }
-//
-// lucky.addEventListner('click', () => {
-//
-// });
